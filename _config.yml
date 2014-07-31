@@ -1,0 +1,9 @@
+url: http://www.kpvarma.com
+title: Random Thoughts - Krishnaprasad Varma
+#google_analytics_tracking_id: UA-50835154-1
+#google_analytics_tracking_domain: gophercon.in
+exclude: ["Gemfile", "Gemfile.lock", "bin"]
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+disqus_shortname: krshnaprsad
+twitter_username: kpvarma
