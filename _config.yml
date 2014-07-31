@@ -1,9 +1,47 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
 url: http://www.kpvarma.com
-title: Random Thoughts - Krishnaprasad Varma
+title: Random Thoughts
+description: Random Thoughts
+
+permalink: /blog/:year/:month/:day/:title/
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+
+exclude: ["README.md"]
+
+pygments: true
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: dbyll
+
+author:
+  full_name: Krishnaprasad Varma
+  city: Mysore, Karnataka, India
+  organization: Qwinix Technologies Pvt. Ltd.
+  name: kpvarma
+  email: contact@kpvarma.com
+  github: kpvarma
+  twitter: kpvarma
+  pinterest: kpvarma
+  linkedin: krishnaprasadvarma
+  disqus: krshnaprsad
+  bio: Programmer, Ruby Enthusiast interested in Python & Javascript. Recently developed an interest in GoLang.
+  email_md5: 285a945a43abb2434948cce069b7a1c1
+
+#Gravatar uses this email md5 to generate the url link
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
 #google_analytics_tracking_id: UA-50835154-1
 #google_analytics_tracking_domain: gophercon.in
-exclude: ["Gemfile", "Gemfile.lock", "bin"]
-permalink: /blog/:year/:month/:day/:title/
-markdown: kramdown
-disqus_shortname: krshnaprsad
-twitter_username: kpvarma
+
+BASE_PATH:

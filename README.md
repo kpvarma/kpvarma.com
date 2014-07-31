@@ -1,4 +1,5 @@
-kpvarma.com
-===========
+www.kpvarma.com
+===============
 
-My Blog Website kpvarma.com
+Random Thoughts by K P Varma
+
