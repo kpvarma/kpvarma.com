@@ -1,7 +1,7 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
 url: http://www.kpvarma.com
-title: Random Thoughts
+title: K P Varma
 description: Random Thoughts
 
 permalink: /blog/:year/:month/:day/:title/
