@@ -4,14 +4,14 @@ url: http://www.kpvarma.com
 title: K P Varma
 description: Random Thoughts
 
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:title/
 
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
 
 exclude: ["README.md"]
 
-pygments: true
+highlighter: pygments
 markdown: kramdown
 
 defaults:

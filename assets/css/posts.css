@@ -1,0 +1,39 @@
+/* Image Gallery Classes */
+
+.image img {
+  margin:5px;
+  padding: 5px;
+  border: 4px solid #ECECEC;
+}
+
+.thumbnail img {
+  width:140px;
+  max-height: 100px;
+}
+
+.image img:hover {
+  border-color: #C1C1C1;
+}
+
+/* Tips Classes */
+
+.tips {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+
+.tips-red {
+  border-left-color: #d9534f;
+}
+.tips-green {
+  border-left-color: #449d44;
+}
+.tips-orange {
+  border-left-color: #f0ad4e;
+}
+.tips-blue {
+  border-left-color: #5bc0de;
+}
