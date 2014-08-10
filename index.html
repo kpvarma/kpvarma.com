@@ -19,9 +19,10 @@ title: My Thoughts
     {{ post.date | date: "%Y" }}
   </span>
 
-  <h2>
+  <h3>
     <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-  </h2>
+    <!-- <a href="{{ {{ post.url | prepend: site.baseurl }} }}">{{ post.title }}</a> -->
+  </h3>
 
   <div>
     {% if post.fullview %}

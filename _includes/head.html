@@ -1,0 +1,35 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+      {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+    </title>
+
+    <meta name="description" content="
+      {% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}
+    ">
+
+    <meta name="author" content="{{ site.author.name }}">
+
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Styles -->
+    <link href="{{ site.BASE_PATH }}/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.BASE_PATH }}/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{{ site.BASE_PATH }}/assets/resources/syntax/syntax.css" rel="stylesheet">
+    <link href="{{ site.BASE_PATH }}/assets/css/style.css" rel="stylesheet">
+    <link href="{{ site.BASE_PATH }}/assets/css/posts.css" rel="stylesheet">
+
+    <!-- Le fav and touch icons -->
+    <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.BASE_PATH }}/feed.xml">
+
+</head>

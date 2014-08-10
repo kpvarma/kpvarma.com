@@ -44,4 +44,5 @@ tags_path: tags.html
 #google_analytics_tracking_id: UA-50835154-1
 #google_analytics_tracking_domain: gophercon.in
 
-BASE_PATH:
+BASE_PATH: ""
+baseurl: ""
