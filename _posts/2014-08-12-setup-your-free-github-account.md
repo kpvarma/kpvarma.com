@@ -5,7 +5,8 @@ date:   2014-08-12 10:30:00
 categories: git github how-to
 ---
 
-Setting up an account on github is the first thing you should do if you want to get into the open source world!
+Setting up an account on github is the first thing you should do if you want to join the open source community and start contributing to it.
+This article is written to help the students to have a smooth landing to the open source world from their academics.
 
 ### Introduction ###
 
@@ -24,7 +25,7 @@ Let us create a free account in Github.com
 - Click on *Sign Up for Github* button
 
 <span class="image">
-![Create a free Github Account](/assets/images/setup-your-free-github-account/create-a-free-account-in-github.png)
+![Create a free Github Account](/assets/images/setup-your-free-github-account/create-an-account-in-github.png)
 </span>
 
 <br/>
@@ -85,20 +86,5 @@ Let us create a free account in Github.com
 
 - Press Enter
 
-
-> Feel free to leave your comment with respect and courtesy. I sincerely appreciate your support!
-
-<div class="pull-right"><strong>Krishnaprasad Varma</strong></div>
-<div class="clearfix"></div>
-
-
-[mrug]: http://www.meetup.com/Mysore-Ruby-User-Group/events/195213512/ "Mysore Ruby User Group"
-[cdn]: http://en.wikipedia.org/wiki/Content_delivery_network "Content Delivery Network"
-[godaddy]: http://www.godaddy.com/ "GoDaddy makes registering Domain Names fast, simple, and affordable. Find out why so many business owners chose GoDaddy to be their Domain Name Registrar."
-[gophercon]: https://gophercon.in "The official site of GopherConIndia. A Go programming language conference in India."
-[qwinix]: http://qwinixtech.com "Qwinix Technologies - Innovative End to End IT Solutions for your Business"
-[kpvarma]: http://kpvarma.com "kpvarma.com - My Thoughts"
-[trello]: http://trello.com
-[jekyll]: http://jekyllrb.com
-[github-pages]: https://pages.github.com/
-[github-pages-more]: https://github.com/blog/1715-faster-more-awesome-github-pages
+<br>
+<br>
