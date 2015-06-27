@@ -1,48 +1,63 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Site wide configuration
 
-url: http://www.kpvarma.com
-title: K P Varma
-description: Random Thoughts
+title:            kpvarma.com
+locale:           en_US
+url:              
 
-permalink: /blog/:title/
 
+# Jekyll configuration
+
+permalink:   /:categories/:title/
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
 
-exclude: ["README.md"]
-
+markdown:    kramdown
 highlighter: pygments
-markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
 
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: dbyll
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
 
-author:
-  full_name: Krishnaprasad Varma
-  city: Mysore, Karnataka, India
-  organization: Qwinix Technologies Pvt. Ltd.
-  name: kpvarma
-  email: contact@kpvarma.com
-  github: kpvarma
+
+# Site owner
+owner:
+  name: Krishnaprasad Varma
+  avatar: avatars/krishnaprasad-varma.jpg
+  bio: "Programmer, Ruby Enthusiast, Gopher interested in Python & Javascript. Recently developed an interest in Gardening."
+  email: krshnaprsad@gmail.com
+  disqus-shortname: krshnaprsad
   twitter: kpvarma
-  pinterest: kpvarma
+  facebook: kpvarma
+  google:
+    plus: krshnaprsad
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: kpvarma
+  stackoverflow: https://stackoverflow.com/users/499097/krishnaprasad-varma
   linkedin: krishnaprasadvarma
-  disqus: krshnaprsad
-  bio: Programmer, Ruby Enthusiast interested in Python & Javascript. Recently developed an interest in GoLang.
-  email_md5: 285a945a43abb2434948cce069b7a1c1
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
 
-#Gravatar uses this email md5 to generate the url link
-
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
-
-#google_analytics_tracking_id: UA-50835154-1
-#google_analytics_tracking_domain: gophercon.in
-
-BASE_PATH: ""
-baseurl: ""
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

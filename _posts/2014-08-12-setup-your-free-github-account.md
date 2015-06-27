@@ -3,6 +3,8 @@ layout: post
 title:  "Setup your free Github Account"
 date:   2014-08-12 10:30:00
 categories: git github how-to
+comments: true
+share: true
 ---
 
 Setting up an account on github is the first thing you should do if you want to join the open source community and start contributing to it.
@@ -25,7 +27,7 @@ Let us create a free account in Github.com
 - Click on *Sign Up for Github* button
 
 <span class="image">
-![Create a free Github Account](/assets/images/setup-your-free-github-account/create-an-account-in-github.png)
+![Create a free Github Account](/images/setup-your-free-github-account/create-an-account-in-github.png)
 </span>
 
 <br/>
@@ -36,7 +38,7 @@ Let us create a free account in Github.com
 - Click on the *New Repository* button located in the bottom right of the page
 
 <span class="image">
-![New repository button](/assets/images/setup-your-free-github-account/new-repository-button.png)
+![New repository button](/images/setup-your-free-github-account/new-repository-button.png)
 </span>
 
 <br/>
@@ -51,7 +53,7 @@ Let us create a free account in Github.com
 - Click on the *Create Repository* button
 
 <span class="image">
-![Create your first repository](/assets/images/setup-your-free-github-account/create-your-first-repository.png)
+![Create your first repository](/images/setup-your-free-github-account/create-your-first-repository.png)
 </span>
 
 <br>
@@ -66,25 +68,33 @@ Let us create a free account in Github.com
   - The repository URL is copied to your clipboard
 
 <span class="image">
-![Clone the repository](/assets/images/setup-your-free-github-account/clone-the-repository.png)
+![Clone the repository](/images/setup-your-free-github-account/clone-the-repository.png)
 </span>
 
 - Open your Console / Terminal / Command line Interface
 - Create a workspace in your home folder
 - MAC, Linux
 
-`mkdir ~/workspace`
+{% highlight css %}
+mkdir ~/workspace
+{% endhighlight %}
 
 - Go to the workspace in console
 
-`cd ~/workspace`
+{% highlight css %}
+cd ~/workspace
+{% endhighlight %}
 
 - Type git clone and Paste the copied repo URL
   - This should look like
-
-`git clone git@github.com:username/repo-name.git`
+{% highlight css %}
+git clone git@github.com:username/repo-name.git
+{% endhighlight %}
 
 - Press Enter
+
+Now you have the repository cloned in your workspace.
+Happy Coding!
 
 <br>
 <br>
