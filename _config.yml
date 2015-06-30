@@ -3,7 +3,7 @@
 title:            kpvarma.com
 locale:           en_US
 url:              
-
+port: 5000
 
 # Jekyll configuration
 
