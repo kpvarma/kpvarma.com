@@ -15,7 +15,7 @@ The problem I am narrating here is not there in the 2.x versions of Jekyl
 
 ### The problem ###
 
-Unlike the Github User and Github Organisation Pages, Github Project Pages are kepy in the same repository as their project. The URL for a Project Page will look like the following
+Unlike the Github User and Github Organisation Pages, Github Project Pages are kept in the same repository as their project. The URL for a Project Page will look like the following
 
 `http(s)://username.github.io/project_name`
 

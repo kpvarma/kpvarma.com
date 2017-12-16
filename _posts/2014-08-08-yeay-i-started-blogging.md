@@ -21,9 +21,7 @@ I though for a while on what my first post should be. I finally decided to write
 
 <br/>
 
-<!-- To Read My First Blog [Click Here]( { % post_url 2014-08-09-how-to-build-a-blog-in-30-minutes % } ) -->
-
-![Take your First Step](/assets/images/yeay-i-started-blogging/first-step.jpg)
+![Take your First Step](/images/yeay-i-started-blogging/first-step.jpg)
 
 <br/>
 
