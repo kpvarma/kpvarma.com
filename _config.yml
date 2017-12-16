@@ -1,12 +1,10 @@
 # Site wide configuration
 
-title:            kpvarma.com
-locale:           en_US
-url:              
-
+title: kpvarma.com
+locale: en_US
+url: http://www.kpvarma.com
 
 # Jekyll configuration
-
 permalink:   /:categories/:title/
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
@@ -16,20 +14,22 @@ highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
-gems:
+plugins:
   - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
 
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
 
 # Site owner
 owner:
-  name: Krishnaprasad Varma
+  name: Krishna Prasad Varma
   avatar: avatars/krishnaprasad-varma.jpg
   bio: "Programmer, Ruby Enthusiast, Gopher interested in Python & Javascript. Recently developed an interest in Gardening."
   email: krshnaprsad@gmail.com
